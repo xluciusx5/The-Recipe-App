@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToolsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginBottom="35dp"
+        android:text="Whole plum tomatoes are essential for sauces, soups, stews and casseroles. Chickpeas, cannellini, kidney beans, butter beans and lentils are all great fillers and bulkers, as well as excellent sources of protein, fibre and vitamin B, too. Light coconut milt can be added to soups and curries for a mellow, creamy flavour.Good-quality tinned tuna, salmon, or sardines. Rice (brown and/or white). Dried pasta. Dried noodles (egg or rice). Couscous. Grains. Honey. Mustard. Olive oil. Soy sauce. Vinegars (red wine, cider, balsamic). Oregano, Smoked paprika, Chilli, Cinnamon, Cumin, Coriander, Curry powder, Sea Salt, Pepper etc. Good-quality stock cubes. Porridge oats. Plain flour, self-raising flour (wholemeal or white). Nuts and seeds.   "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="319dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/essentials" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
